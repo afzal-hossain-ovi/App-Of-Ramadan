@@ -9,7 +9,25 @@
 import Foundation
 
 
-class QuranHadithModel {
-    private var _quranHadithDetails: String!
-    private var 
+class QuranHadithMasalahModel {
+    
+    private var _allDetails: String!
+    private var _allTitle: String!
+    
+    
+    
+    var allDetails: String {
+        return _allDetails
+    }
+    var allTitle: String {
+        return _allTitle
+    }
+
+    init(title: String,details: String) {
+        self._allDetails = details
+        self._allTitle = title
+    }
+    
+    
+    
 }

@@ -10,15 +10,11 @@ import UIKit
 
 class QuranHadithMasalahDoaCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var dataTitleLbl: UILabel!
+    
+    func configureCell(model: QuranHadithMasalahModel) {
+        dataTitleLbl.text = model.allTitle
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    
 
 }

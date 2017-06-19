@@ -7,21 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15206E8E1EDEA08600A0787B /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15206E8D1EDEA08600A0787B /* DetailsVC.swift */; };
+		1541BE661EDC5F7C00B29A22 /* FullSomoyShuchiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1541BE651EDC5F7C00B29A22 /* FullSomoyShuchiVC.swift */; };
+		1541BE681EDC774700B29A22 /* FullMonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1541BE671EDC774700B29A22 /* FullMonthCell.swift */; };
+		1541BE6A1EDD4F6C00B29A22 /* QuranHadith&MasalahModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1541BE691EDD4F6C00B29A22 /* QuranHadith&MasalahModel.swift */; };
+		1541BE6D1EDD576B00B29A22 /* QuranHadithMasalahService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1541BE6C1EDD576B00B29A22 /* QuranHadithMasalahService.swift */; };
+		1541BE6F1EDD5D9000B29A22 /* QuranHadithMasalahDoaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1541BE6E1EDD5D9000B29A22 /* QuranHadithMasalahDoaVC.swift */; };
+		1541BE711EDD63B700B29A22 /* QuranHadithMasalahDoaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1541BE701EDD63B700B29A22 /* QuranHadithMasalahDoaCell.swift */; };
 		154579091ED56B7E00BCA79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154579081ED56B7E00BCA79D /* AppDelegate.swift */; };
-		1545790B1ED56B7E00BCA79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545790A1ED56B7E00BCA79D /* ViewController.swift */; };
+		1545790B1ED56B7E00BCA79D /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545790A1ED56B7E00BCA79D /* FirstVC.swift */; };
 		1545790E1ED56B7E00BCA79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1545790C1ED56B7E00BCA79D /* Main.storyboard */; };
 		154579101ED56B7E00BCA79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1545790F1ED56B7E00BCA79D /* Assets.xcassets */; };
 		154579131ED56B7E00BCA79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154579111ED56B7E00BCA79D /* LaunchScreen.storyboard */; };
+		1545791F1ED56C6C00BCA79D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545791E1ED56C6C00BCA79D /* MainVC.swift */; };
+		154579281ED570D600BCA79D /* BenSenHandwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 154579221ED570D600BCA79D /* BenSenHandwriting.ttf */; };
+		154579291ED570D600BCA79D /* kalpurush ANSI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 154579231ED570D600BCA79D /* kalpurush ANSI.ttf */; };
+		1545792A1ED570D600BCA79D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 154579241ED570D600BCA79D /* Roboto-Light.ttf */; };
+		1545792B1ED570D600BCA79D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 154579251ED570D600BCA79D /* Roboto-Medium.ttf */; };
+		1545792C1ED570D600BCA79D /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 154579261ED570D600BCA79D /* Roboto-Thin.ttf */; };
+		1545792D1ED570D600BCA79D /* Siyam Rupali ANSI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 154579271ED570D600BCA79D /* Siyam Rupali ANSI.ttf */; };
+		157357901ED7509100C19D21 /* SittingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573578F1ED7509100C19D21 /* SittingsVC.swift */; };
+		157357931ED7F57B00C19D21 /* IfterSehriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157357921ED7F57B00C19D21 /* IfterSehriModel.swift */; };
+		15F0DA1B1EDAAF3600D9E490 /* JsonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0DA1A1EDAAF3600D9E490 /* JsonDataModel.swift */; };
+		15F0DA1D1EDAD48700D9E490 /* SlideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0DA1C1EDAD48700D9E490 /* SlideMenuVC.swift */; };
+		15F0DA1F1EDAD4C500D9E490 /* SlideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0DA1E1EDAD4C500D9E490 /* SlideMenuCell.swift */; };
+		15F0DA211EDAE51A00D9E490 /* TasbihVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0DA201EDAE51A00D9E490 /* TasbihVC.swift */; };
+		15F0DA231EDAEA6100D9E490 /* OdioQuranVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0DA221EDAEA6100D9E490 /* OdioQuranVC.swift */; };
+		15F0DA251EDAED6F00D9E490 /* allsurah.csv in Resources */ = {isa = PBXBuildFile; fileRef = 15F0DA241EDAED6F00D9E490 /* allsurah.csv */; };
+		15F0DA271EDAED9300D9E490 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0DA261EDAED9300D9E490 /* csv.swift */; };
+		15F0DA291EDB361F00D9E490 /* SurahNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0DA281EDB361F00D9E490 /* SurahNameCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15206E8D1EDEA08600A0787B /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		1541BE651EDC5F7C00B29A22 /* FullSomoyShuchiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullSomoyShuchiVC.swift; sourceTree = "<group>"; };
+		1541BE671EDC774700B29A22 /* FullMonthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullMonthCell.swift; sourceTree = "<group>"; };
+		1541BE691EDD4F6C00B29A22 /* QuranHadith&MasalahModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuranHadith&MasalahModel.swift"; sourceTree = "<group>"; };
+		1541BE6C1EDD576B00B29A22 /* QuranHadithMasalahService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranHadithMasalahService.swift; sourceTree = "<group>"; };
+		1541BE6E1EDD5D9000B29A22 /* QuranHadithMasalahDoaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranHadithMasalahDoaVC.swift; sourceTree = "<group>"; };
+		1541BE701EDD63B700B29A22 /* QuranHadithMasalahDoaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranHadithMasalahDoaCell.swift; sourceTree = "<group>"; };
 		154579051ED56B7E00BCA79D /* App Of Ramadan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Of Ramadan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154579081ED56B7E00BCA79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1545790A1ED56B7E00BCA79D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1545790A1ED56B7E00BCA79D /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		1545790D1ED56B7E00BCA79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1545790F1ED56B7E00BCA79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		154579121ED56B7E00BCA79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		154579141ED56B7E00BCA79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1545791E1ED56C6C00BCA79D /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		154579221ED570D600BCA79D /* BenSenHandwriting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BenSenHandwriting.ttf; path = ../../../Downloads/fonts/BenSenHandwriting.ttf; sourceTree = "<group>"; };
+		154579231ED570D600BCA79D /* kalpurush ANSI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "kalpurush ANSI.ttf"; path = "../../../Downloads/fonts/kalpurush ANSI.ttf"; sourceTree = "<group>"; };
+		154579241ED570D600BCA79D /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		154579251ED570D600BCA79D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../Downloads/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		154579261ED570D600BCA79D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../Downloads/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		154579271ED570D600BCA79D /* Siyam Rupali ANSI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Siyam Rupali ANSI.ttf"; path = "../../../Downloads/fonts/Siyam Rupali ANSI.ttf"; sourceTree = "<group>"; };
+		1573578F1ED7509100C19D21 /* SittingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SittingsVC.swift; sourceTree = "<group>"; };
+		157357921ED7F57B00C19D21 /* IfterSehriModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IfterSehriModel.swift; sourceTree = "<group>"; };
+		15F0DA1A1EDAAF3600D9E490 /* JsonDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDataModel.swift; sourceTree = "<group>"; };
+		15F0DA1C1EDAD48700D9E490 /* SlideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuVC.swift; sourceTree = "<group>"; };
+		15F0DA1E1EDAD4C500D9E490 /* SlideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuCell.swift; sourceTree = "<group>"; };
+		15F0DA201EDAE51A00D9E490 /* TasbihVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasbihVC.swift; sourceTree = "<group>"; };
+		15F0DA221EDAEA6100D9E490 /* OdioQuranVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdioQuranVC.swift; sourceTree = "<group>"; };
+		15F0DA241EDAED6F00D9E490 /* allsurah.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = allsurah.csv; path = ../../../Downloads/allsurah.csv; sourceTree = "<group>"; };
+		15F0DA261EDAED9300D9E490 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = csv.swift; path = "../../new ios project/web rest/PokemonDex/PokemonDex/csv.swift"; sourceTree = "<group>"; };
+		15F0DA281EDB361F00D9E490 /* SurahNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurahNameCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1541BE6B1EDD574E00B29A22 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1541BE6C1EDD576B00B29A22 /* QuranHadithMasalahService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 		154578FC1ED56B7E00BCA79D = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +110,78 @@
 		154579071ED56B7E00BCA79D /* App Of Ramadan */ = {
 			isa = PBXGroup;
 			children = (
-				154579081ED56B7E00BCA79D /* AppDelegate.swift */,
-				1545790A1ED56B7E00BCA79D /* ViewController.swift */,
-				1545790C1ED56B7E00BCA79D /* Main.storyboard */,
-				1545790F1ED56B7E00BCA79D /* Assets.xcassets */,
-				154579111ED56B7E00BCA79D /* LaunchScreen.storyboard */,
-				154579141ED56B7E00BCA79D /* Info.plist */,
+				1541BE6B1EDD574E00B29A22 /* Service */,
+				157357911ED7F55700C19D21 /* Model */,
+				1545791C1ED56BA000BCA79D /* Files */,
+				1545791B1ED56B9700BCA79D /* Controller */,
+				1545791A1ED56B8B00BCA79D /* View */,
+				1545791D1ED56BA700BCA79D /* Utils */,
 			);
 			path = "App Of Ramadan";
+			sourceTree = "<group>";
+		};
+		1545791A1ED56B8B00BCA79D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1545790C1ED56B7E00BCA79D /* Main.storyboard */,
+				154579111ED56B7E00BCA79D /* LaunchScreen.storyboard */,
+				15F0DA1E1EDAD4C500D9E490 /* SlideMenuCell.swift */,
+				15F0DA281EDB361F00D9E490 /* SurahNameCell.swift */,
+				1541BE671EDC774700B29A22 /* FullMonthCell.swift */,
+				1541BE701EDD63B700B29A22 /* QuranHadithMasalahDoaCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1545791B1ED56B9700BCA79D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				154579081ED56B7E00BCA79D /* AppDelegate.swift */,
+				1545790A1ED56B7E00BCA79D /* FirstVC.swift */,
+				1545791E1ED56C6C00BCA79D /* MainVC.swift */,
+				1573578F1ED7509100C19D21 /* SittingsVC.swift */,
+				15F0DA1C1EDAD48700D9E490 /* SlideMenuVC.swift */,
+				15F0DA201EDAE51A00D9E490 /* TasbihVC.swift */,
+				15F0DA221EDAEA6100D9E490 /* OdioQuranVC.swift */,
+				1541BE651EDC5F7C00B29A22 /* FullSomoyShuchiVC.swift */,
+				1541BE6E1EDD5D9000B29A22 /* QuranHadithMasalahDoaVC.swift */,
+				15206E8D1EDEA08600A0787B /* DetailsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1545791C1ED56BA000BCA79D /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				15F0DA261EDAED9300D9E490 /* csv.swift */,
+				15F0DA241EDAED6F00D9E490 /* allsurah.csv */,
+				154579221ED570D600BCA79D /* BenSenHandwriting.ttf */,
+				154579231ED570D600BCA79D /* kalpurush ANSI.ttf */,
+				154579241ED570D600BCA79D /* Roboto-Light.ttf */,
+				154579251ED570D600BCA79D /* Roboto-Medium.ttf */,
+				154579261ED570D600BCA79D /* Roboto-Thin.ttf */,
+				154579271ED570D600BCA79D /* Siyam Rupali ANSI.ttf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		1545791D1ED56BA700BCA79D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1545790F1ED56B7E00BCA79D /* Assets.xcassets */,
+				154579141ED56B7E00BCA79D /* Info.plist */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		157357911ED7F55700C19D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				157357921ED7F57B00C19D21 /* IfterSehriModel.swift */,
+				15F0DA1A1EDAAF3600D9E490 /* JsonDataModel.swift */,
+				1541BE691EDD4F6C00B29A22 /* QuranHadith&MasalahModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +243,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1545792C1ED570D600BCA79D /* Roboto-Thin.ttf in Resources */,
 				154579131ED56B7E00BCA79D /* LaunchScreen.storyboard in Resources */,
 				154579101ED56B7E00BCA79D /* Assets.xcassets in Resources */,
+				1545792D1ED570D600BCA79D /* Siyam Rupali ANSI.ttf in Resources */,
+				1545792A1ED570D600BCA79D /* Roboto-Light.ttf in Resources */,
+				15F0DA251EDAED6F00D9E490 /* allsurah.csv in Resources */,
+				1545792B1ED570D600BCA79D /* Roboto-Medium.ttf in Resources */,
 				1545790E1ED56B7E00BCA79D /* Main.storyboard in Resources */,
+				154579281ED570D600BCA79D /* BenSenHandwriting.ttf in Resources */,
+				154579291ED570D600BCA79D /* kalpurush ANSI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +263,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1545790B1ED56B7E00BCA79D /* ViewController.swift in Sources */,
+				15F0DA1D1EDAD48700D9E490 /* SlideMenuVC.swift in Sources */,
+				1545790B1ED56B7E00BCA79D /* FirstVC.swift in Sources */,
+				15F0DA271EDAED9300D9E490 /* csv.swift in Sources */,
+				157357901ED7509100C19D21 /* SittingsVC.swift in Sources */,
+				157357931ED7F57B00C19D21 /* IfterSehriModel.swift in Sources */,
+				15F0DA1F1EDAD4C500D9E490 /* SlideMenuCell.swift in Sources */,
+				1541BE661EDC5F7C00B29A22 /* FullSomoyShuchiVC.swift in Sources */,
+				15F0DA291EDB361F00D9E490 /* SurahNameCell.swift in Sources */,
+				15F0DA1B1EDAAF3600D9E490 /* JsonDataModel.swift in Sources */,
+				1541BE6A1EDD4F6C00B29A22 /* QuranHadith&MasalahModel.swift in Sources */,
+				15206E8E1EDEA08600A0787B /* DetailsVC.swift in Sources */,
+				1541BE681EDC774700B29A22 /* FullMonthCell.swift in Sources */,
+				1541BE6D1EDD576B00B29A22 /* QuranHadithMasalahService.swift in Sources */,
+				1541BE711EDD63B700B29A22 /* QuranHadithMasalahDoaCell.swift in Sources */,
+				15F0DA211EDAE51A00D9E490 /* TasbihVC.swift in Sources */,
+				1545791F1ED56C6C00BCA79D /* MainVC.swift in Sources */,
 				154579091ED56B7E00BCA79D /* AppDelegate.swift in Sources */,
+				15F0DA231EDAEA6100D9E490 /* OdioQuranVC.swift in Sources */,
+				1541BE6F1EDD5D9000B29A22 /* QuranHadithMasalahDoaVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +443,7 @@
 				154579191ED56B7E00BCA79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

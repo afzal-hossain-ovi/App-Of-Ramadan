@@ -8,18 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstVC: UIViewController {
+    
+    var timer = Timer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(FirstVC.time), userInfo: nil, repeats: false)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func time() {
+        performSegue(withIdentifier: "toMainVC", sender: nil)
     }
-
 
 }
 

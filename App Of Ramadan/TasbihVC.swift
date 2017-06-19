@@ -10,26 +10,26 @@ import UIKit
 
 class TasbihVC: UIViewController {
 
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var tasbihLbl: UILabel!
+    var count = 1
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        imgView.isUserInteractionEnabled = true
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(TasbihVC.tasbihCount))
+        imgView.addGestureRecognizer(gesture)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tasbihCount() {
+        tasbihLbl.text = String(count)
+        count += 1
     }
-    */
+
+    @IBAction func resetTasbih(_ sender: Any) {
+        count = 1
+        tasbihLbl.text = "0"
+    }
 
 }
