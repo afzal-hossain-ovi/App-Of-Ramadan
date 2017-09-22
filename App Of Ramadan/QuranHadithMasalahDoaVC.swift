@@ -11,7 +11,7 @@ import UIKit
 class QuranHadithMasalahDoaVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     var row = 0
-    var ds: QuranHadithMasalahService! = QuranHadithMasalahService.instanse
+    var ds = QuranHadithMasalahService()
 
     
     override func viewDidLoad() {

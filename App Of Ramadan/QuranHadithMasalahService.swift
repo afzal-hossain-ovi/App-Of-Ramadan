@@ -11,7 +11,7 @@ import Foundation
 
 class QuranHadithMasalahService {
     
-    static var instanse = QuranHadithMasalahService()
+    //static var instanse = QuranHadithMasalahService()
     
     var quranHadithsModel = [QuranHadithMasalahModel]()
     var masnunDoaModel = [QuranHadithMasalahModel]()

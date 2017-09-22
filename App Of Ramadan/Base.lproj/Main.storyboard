@@ -210,22 +210,22 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PER-qt-vJM">
-                                <rect key="frame" x="287.5" y="80" width="67.5" height="48"/>
+                                <rect key="frame" x="286" y="80" width="69" height="42"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24 May,2017" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMq-d0-RsS">
-                                        <rect key="frame" x="0.0" y="0.0" width="67.5" height="16"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="69" height="14"/>
                                         <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="12"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24 May,2017" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaR-iK-ZhS">
-                                        <rect key="frame" x="0.0" y="16" width="67.5" height="16"/>
+                                        <rect key="frame" x="0.0" y="14" width="69" height="14"/>
                                         <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="12"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dhaka" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgR-Q7-iSJ">
-                                        <rect key="frame" x="0.0" y="32" width="67.5" height="16"/>
+                                        <rect key="frame" x="0.0" y="28" width="69" height="14"/>
                                         <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="12"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -258,31 +258,31 @@
                                 <rect key="frame" x="0.0" y="417" width="375" height="68"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="আজকের নামাজের ওয়াক্ত" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqZ-EH-jfb">
-                                        <rect key="frame" x="134.5" y="1" width="107.5" height="18"/>
+                                        <rect key="frame" x="134.5" y="1" width="107.5" height="13"/>
                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="11"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="waW-pm-FQL">
-                                        <rect key="frame" x="8" y="18" width="359" height="44"/>
+                                        <rect key="frame" x="8" y="18" width="359" height="35"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="m6X-Kf-bki">
-                                                <rect key="frame" x="0.0" y="0.0" width="72" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="35"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ফজর" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ah-Vb-bIu">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="11"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rya-ep-yZt">
-                                                        <rect key="frame" x="0.0" y="14" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="11" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czl-V4-scx">
-                                                        <rect key="frame" x="0.0" y="28" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="22" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -290,22 +290,22 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="h7w-Ff-rSD">
-                                                <rect key="frame" x="72" y="0.0" width="71.5" height="44"/>
+                                                <rect key="frame" x="72" y="0.0" width="71.5" height="35"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="যোহর" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNM-7j-tb4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="13"/>
                                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="11"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wk-qX-DPn">
-                                                        <rect key="frame" x="0.0" y="14" width="71.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="11" width="71.5" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4M-s4-42M">
-                                                        <rect key="frame" x="0.0" y="28" width="71.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="22" width="71.5" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -313,22 +313,22 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="274-VS-fhn">
-                                                <rect key="frame" x="143.5" y="0.0" width="72" height="44"/>
+                                                <rect key="frame" x="143.5" y="0.0" width="72" height="35"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="আসর" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXV-fv-Ycu">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="11"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuk-aC-cAm">
-                                                        <rect key="frame" x="0.0" y="14" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="11" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecd-mv-Ums">
-                                                        <rect key="frame" x="0.0" y="28" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="22" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -336,22 +336,22 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="6ry-0W-fRz">
-                                                <rect key="frame" x="215.5" y="0.0" width="71.5" height="44"/>
+                                                <rect key="frame" x="215.5" y="0.0" width="71.5" height="35"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="মাগরিব" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKj-XW-onV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="13"/>
                                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="11"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zug-FD-okE">
-                                                        <rect key="frame" x="0.0" y="14" width="71.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="11" width="71.5" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPo-cV-ROu">
-                                                        <rect key="frame" x="0.0" y="28" width="71.5" height="16"/>
+                                                        <rect key="frame" x="0.0" y="22" width="71.5" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -359,22 +359,22 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="XVf-6H-zMv">
-                                                <rect key="frame" x="287" y="0.0" width="72" height="44"/>
+                                                <rect key="frame" x="287" y="0.0" width="72" height="35"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ইশা" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSz-ff-2Cf">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="11"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8o-b9-Peq">
-                                                        <rect key="frame" x="0.0" y="14" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="11" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5v-K9-cZa">
-                                                        <rect key="frame" x="0.0" y="28" width="72" height="16"/>
+                                                        <rect key="frame" x="0.0" y="22" width="72" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="10"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -401,7 +401,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="187.5" height="182"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="-8" translatesAutoresizingMaskIntoConstraints="NO" id="hx7-tj-sCC">
-                                                <rect key="frame" x="42" y="62" width="103.5" height="59"/>
+                                                <rect key="frame" x="42" y="69" width="103.5" height="45"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alarm-clock-xxl" translatesAutoresizingMaskIntoConstraints="NO" id="tW1-Xj-Xwi">
                                                         <rect key="frame" x="44.5" y="0.0" width="15" height="15"/>
@@ -411,13 +411,13 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="আজকের ইফতারের সময়" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coM-ku-n5a">
-                                                        <rect key="frame" x="0.0" y="16" width="103.5" height="18"/>
+                                                        <rect key="frame" x="0.0" y="13" width="103.5" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="11"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6NQ-mE-hiC">
-                                                        <rect key="frame" x="22.5" y="26" width="58.5" height="33"/>
+                                                        <rect key="frame" x="23" y="18" width="58" height="27"/>
                                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="23"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -435,7 +435,7 @@
                                         <rect key="frame" x="187.5" y="0.0" width="187.5" height="182"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="-8" translatesAutoresizingMaskIntoConstraints="NO" id="tM2-GB-l2y">
-                                                <rect key="frame" x="38" y="62" width="112.5" height="59"/>
+                                                <rect key="frame" x="38" y="69" width="112.5" height="45"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alarm-clock-xxl" translatesAutoresizingMaskIntoConstraints="NO" id="Kmh-1Y-puh">
                                                         <rect key="frame" x="49" y="0.0" width="15" height="15"/>
@@ -445,13 +445,13 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="পরিবর্তি সেহেরির শেষ সময়" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8E-mG-18d">
-                                                        <rect key="frame" x="0.0" y="16" width="112.5" height="18"/>
+                                                        <rect key="frame" x="0.0" y="13" width="112.5" height="13"/>
                                                         <fontDescription key="fontDescription" name="SiyamRupaliANSI" family="Siyam Rupali ANSI" pointSize="11"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39f-rf-mFv">
-                                                        <rect key="frame" x="27" y="26" width="58.5" height="33"/>
+                                                        <rect key="frame" x="27.5" y="18" width="58" height="27"/>
                                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="23"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -561,16 +561,16 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Tf1-C5-ThH">
-                                <rect key="frame" x="20" y="90" width="279" height="34.5"/>
+                                <rect key="frame" x="20" y="90" width="279" height="31"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="প্রতিদিন হাদীসের নোটিফিকেশন" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59G-ev-fGX">
-                                        <rect key="frame" x="0.0" y="0.0" width="144" height="17.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="144" height="14"/>
                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enabled" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVP-xY-4sN">
-                                        <rect key="frame" x="0.0" y="17.5" width="51.5" height="17"/>
+                                        <rect key="frame" x="0.0" y="14" width="51.5" height="17"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -578,7 +578,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="JzA-sD-0bv">
-                                <rect key="frame" x="20" y="209" width="279" height="36"/>
+                                <rect key="frame" x="20" y="202" width="279" height="36"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="vVT-hk-xSM">
                                         <rect key="frame" x="0.0" y="0.0" width="119.5" height="19"/>
@@ -608,16 +608,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="CXD-61-Qb6">
-                                <rect key="frame" x="20" y="149.5" width="279" height="34.5"/>
+                                <rect key="frame" x="20" y="146" width="279" height="31"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="হাদীস নোটিফিকেশনের সময় সেট করুন" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJo-W8-x9b">
-                                        <rect key="frame" x="0.0" y="0.0" width="178.5" height="17.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="179" height="14"/>
                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05:63PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMG-TC-iWw">
-                                        <rect key="frame" x="0.0" y="17.5" width="59" height="17"/>
+                                        <rect key="frame" x="0.0" y="14" width="59" height="17"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -625,14 +625,14 @@
                                 </subviews>
                             </stackView>
                             <pickerView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RgA-mU-vSW">
-                                <rect key="frame" x="0.0" y="253" width="375" height="414"/>
+                                <rect key="frame" x="0.0" y="246" width="375" height="421"/>
                                 <connections>
                                     <outlet property="dataSource" destination="SVA-DW-jvA" id="pdd-zX-spX"/>
                                     <outlet property="delegate" destination="SVA-DW-jvA" id="bxS-cL-Rfu"/>
                                 </connections>
                             </pickerView>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="10" translatesAutoresizingMaskIntoConstraints="NO" id="dNP-If-J6d">
-                                <rect key="frame" x="0.0" y="246" width="375" height="216"/>
+                                <rect key="frame" x="0.0" y="239" width="375" height="223"/>
                                 <date key="date" timeIntervalSinceReferenceDate="518602378.178581">
                                     <!--2017-06-08 08:12:58 +0000-->
                                 </date>
@@ -951,16 +951,16 @@
                                         <rect key="frame" x="12" y="6" width="133" height="33"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ncf-fx-Hec">
-                                                <rect key="frame" x="0.0" y="0.0" width="113" height="19"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="113.5" height="19"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="জেলা পরিবর্তন করুন" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWt-vG-Oj0">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="19"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="19"/>
                                                         <fontDescription key="fontDescription" name="KalpurushANSI" family="Kalpurush ANSI" pointSize="11"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEG-Uz-C5e">
-                                                        <rect key="frame" x="94" y="0.0" width="19" height="19"/>
+                                                        <rect key="frame" x="94.5" y="0.0" width="19" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="WMR-ti-qQA"/>
                                                             <constraint firstAttribute="width" constant="19" id="XTK-4q-SZc"/>
